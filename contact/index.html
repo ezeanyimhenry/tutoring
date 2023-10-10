@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>My Contact Page</title>
+    </head>
+    <body>
+        <h1>My Contact Page</h1>
+        <a href="../index.html">HOME PAGE</a>
+        <a href="../index.html#ordered_list">HOME PAGE - Ordered List</a>
+
+        <!-- FORMS -->
+        <h1>Contact us</h1>
+        <p>fill in the form below</p>
+        <form action="contact.html" method="">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" size="15" maxlength="30" placeholder="Enter Name"/>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" required/>
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" value="09091344893" readonly/>
+            </div>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age"/>
+            </div>
+            <input type="search" name="search" />
+            <label>date</label>
+            <input type="date" name="date"/>
+            <input type="hidden" name="hidden"/>
+            <label>Upload File</label>
+            <input type="file" name="file"/>
+            <label>Remember Me</label>
+            <input type="checkbox" name="remember" checked/>
+            <label>Select Class</label>
+            <input type="radio" name="class" value="js1"/>JS1
+            <input type="radio" name="class" value="js2" checked/>JS2
+            <input type="radio" name="class" value="js3"/>JS3
+            <label>Your Message</label>
+            <textarea cols="30" rows="10" name="message">My name is Henry</textarea>
+            <label>Select Department</label>
+            <select name="department" multiple="multiple">
+                <option value="Computer-science">Computer Science</option>
+                <option value="Radiography" selected>Radiograpgy</option>
+                <option value="Pharmacy">Pharmacy</option>
+                <option value="Dental">Dental Science</option>
+            </select>
+            <input type="button" value="Button" name="button"/>
+            <label>Password</label>
+            <input type="password" name="password"/>
+            <input type="submit" name="submit"/>
+            <input type="image" name="paystack" src="https://ibusa.co.za/sitepad-data/uploads/paystack-button.png" height="20">
+            
+        </form>
+        <a href="https://facebook.com"><button><img src="../images/1inch.svg" height="10"> Facebook</button></a>
+    </body>
+</html>
